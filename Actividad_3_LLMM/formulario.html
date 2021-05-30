@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE - Formulario de contacto</title>
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body>
+    
+    <header>
+       
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="ite.xml">Home</a></li>
+            
+        </ul>
+    </nav>
+
+    <form action="contacto.jsp" method=post name=formulario>
+    <fieldset id="formulario"><legend id="legend">FORMULARIO DE INSCRIPCIÓN</legend>
+
+        <div id="datos">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="ape" placeholder="Introduzca sus apellidos" autofocus required>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nom" placeholder="Introduzca su nombre" required>
+            <br><br>
+                        
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" name="nacimiento" placeholder="dd/mm/aaaa" required>
+            <br><br>
+
+            <label for="ciudad">¿En qué ciudad resides?</label>
+            <select name="ciudad" id="ciudad">
+                <option value="seleccione">---Seleccione---</option>
+                <option value="and">Andalucía</option>
+                <option value="ara">Aragón</option>
+                <option value="ast">Asturias</option>
+                <option value="bal">Islas Baleares</option>
+                <option value="islascan">Canarias</option>
+                <option value="Can">Cantabria</option>
+                <option value="mancha">Castilla La Mancha</option>
+                <option value="leon">Castilla y León</option>
+                <option value="cat">Cataluña</option>
+                <option value="val">Valencia</option>
+                <option value="ext">Extremadura</option>
+                <option value="gal">Galicia</option>
+                <option value="rio">La Rioja</option>
+                <option value="mad">Madrid</option>
+                <option value="mur">Murcia</option>
+                <option value="nav">Navara</option>
+                <option value="vas">País Vasco</option>
+                <option value="ceu">Ceuta</option>
+                <option value="mel">Melilla</option>
+            </select>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="ej: mimail90@mail.com" required>
+            
+
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" name="tel" placeholder="Introduzca su teléfono">
+            <br><br>
+        </div>
+
+        <div id="resto">
+            <label for="intereses">¿En qué ciclos de grado superior estás interesado?</label><br><br>
+            <input type="checkbox" name="intereses" value="dam">DAM<br>
+            <input type="checkbox" name="intereses" value="daw">DAW<br>
+            <input type="checkbox" name="intereses" value="asir">ASIR<br>
+            
+            <br><br>
+
+            <label for="frecuencia">¿Tienes algún tipo de experiencia en el mundo de la informática?</label><br><br>
+            <input type="radio" name="experiencia" id="experiencia" value="Y">Si<br>
+            <input type="radio" name="experiencia" id="experiencia" value="N">No<br>
+            
+            <br/>	<br/>	
+            
+            <label for="area">Observaciones</label>
+            <br/>	
+            <textarea rows="5" cols="50" name="area"></textarea>
+            <br><br>
+
+            <label for="terminos">¿Acepta los términos de uso de su información?</label>
+            <br/><br>
+            He leído y acepto los términos de uso <input type="checkbox" name="terminos" value="Y" />
+            <br><br>
+
+            <input type="submit" id="submit" value="Enviar"/> <input type="reset" id="reset" value="Reiniciar campos" />
+        </div>
+
+        
+    </fieldset>
+    </form>
+
+    
+
+</body>
+</html>

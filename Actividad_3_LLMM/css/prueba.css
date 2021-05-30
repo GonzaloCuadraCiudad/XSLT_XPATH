@@ -1,0 +1,262 @@
+
+body {
+
+    background-image: url("../img/fondo_tec.jpg" )!important;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: absolute;
+}
+
+#nombres {
+    
+    position: relative;
+    left: 500px;
+    top: 50px;
+    font-family: "Verdana";
+    font-size: 40px;
+    text-align: center;
+    background-color: transparent;
+    color: cornflowerblue;
+    
+
+}
+
+table {
+    
+    font-family: "Verdana";
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    padding: 30px;
+    background-color: whitesmoke;
+
+}
+
+th,td {
+    text-align: center;
+    padding: 15px;
+}
+
+#profes{
+    
+    font-size: 30px;
+    margin: 20px;
+    position: relative;
+    left: 1000px;
+    top: 150px;
+    background-color:transparent
+}
+
+#profes_int {
+
+    background-color: whitesmoke;
+    align-self: center;
+    position: absolute;
+    left: 200px;
+}
+
+
+
+#admin {
+    font-size: 30px;
+    margin: 20px;
+   position: relative;
+    top: -120px;
+    background-size: cover;
+
+}
+
+#admin_tit {
+    background-color: whitesmoke;
+}
+
+#estudios {
+
+    
+    position: relative;
+    margin: 20px;
+    left: 500px;
+}
+
+
+
+
+
+
+
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    /*todo lo que escriba en h1 saldra azul*/
+    line-height: 40px;
+
+}
+h2, h3{
+    font-family: "Verdana";
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+
+
+#contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;/*cambio el contenedor de toda la estructura*/
+    margin-bottom: auto;/* esto es lo que ocupa la pagina*/
+    padding: 0px;
+    border: 0px solid rgb(20, 20, 219);/*esto es para que salga una linea haciendo un recuadro sobre todo el contenedor linea fina 1*/
+    
+    
+}
+
+#contenedor>header {
+
+    width: 0%;
+    height: 0px;
+    background: rgb(6, 243, 57);/*esto se pone negro lo naraja de la portada*/
+    margin-bottom: 0px;
+    margin: auto;
+}
+
+nav *{margin:3;padding:5px;box-sizing:content-box;font-size:0%;position: fixed;font-weight: bold;}  /*estab es la parte que sale en negro con nombres*/
+nav a{
+
+color:inherit;
+font-size:20px;
+margin: auto;
+
+
+}
+
+
+    
+li{
+    
+display:inline-block; /*ESTA ES DONDE CAMBIO EL SITIO DE QUIENES SOMOS*/
+width:150px;/*MAS ANCHO*/
+height:30px;/*MAS PARA ABAJO*/
+padding:5px 10px;/*SEPARACION ENTRE ELLOS*/
+background-color:cornflowerblue;
+border:1px solid rgb(239, 244, 245);
+
+
+position:static;
+}
+    
+li:hover{
+background-color:rgb(241, 243, 243);/*cambiar color cuando paso raton por encima de quienes*/
+color:rgb(248, 248, 250);margin: auto;
+}
+    
+li>ul{
+display:none;
+margin: auto;
+}
+
+li:hover>ul{
+display:block;/*esto es para el submenu como se ve*/
+position:absolute;
+top:0px;
+left:-40px;
+margin: auto;
+}
+
+
+section {
+    margin-right: 5px;
+    width: 50%;
+    height: 250px;/*esto hace que la pagina sea mas grande o pequeña*/
+    /*este es el recuadro de la seccion de la izquierda*/
+    float: left;
+  
+    margin-bottom: 10px;
+    margin: auto;
+
+}
+
+section>header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    height: 0px;
+    background: rgb(245, 245, 247);/*esto pone en negro la seccion de la  arriba a la izquierda*/
+
+
+}
+
+
+section article {
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 10px;
+    width: 70%;
+    height: 200px;
+    
+    background: #FFF;
+    border: 0px solid rgb(15, 15, 15);
+}
+p {
+    font-family: 'Geneva';
+    font-size: 15px;
+    color: #0898f8;
+} 
+
+
+section footer {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    height: 280px;
+    
+    background:cornflowerblue;
+
+}
+.imagen_izquierda {
+    float: left;
+    width: 30%;
+    
+}
+section2 {
+    margin-right: 5px;
+    width: 45%;
+    height: 800px;
+    background: rgb(240, 240, 11);
+    float: right;
+    overflow: auto;
+    margin-bottom: 10px;
+
+
+}
+aside {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+    background: #FFF;
+    border: 2px solid rgb(24, 23, 23);
+}
+
+footer {
+
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+
+}
+.footer {
+    background: rgb(240, 6, 6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+

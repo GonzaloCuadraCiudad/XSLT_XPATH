@@ -1,0 +1,147 @@
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 37, 241);/*todo lo que escriba en h1 saldra azul*/
+    line-height: 40px;
+
+}
+h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    text-align: center;
+}
+h4 {
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+
+
+
+nav *{margin:3;padding:3;box-sizing:content-box;font-size:0%;}  /*estab es la parte que sale en negro con nombres*/
+nav a{
+text-decoration:wavy;
+color:inherit;
+font-size:16px;
+margin: auto;
+
+}
+    
+li{
+display:ruby-base; /*ESTA ES DONDE CAMBIO EL SITIO DE QUIENES SOMOS*/
+width:150px;/*MAS ANCHO*/
+height:30px;/*MAS PARA ABAJO*/
+padding:15px 2px;/*SEPARACION ENTRE ELLOS*/
+background-color:#333;
+border:1px solid #333;
+text-align:center;
+color:#fff;
+margin: auto;
+}
+    
+li:hover{
+background-color:rgb(43, 21, 241);/*cambiar color cuando paso raton por encima de quienes*/
+color:#000;margin: auto;
+}
+    
+li>ul{
+display:none;
+margin: auto;
+}
+
+li:hover>ul{
+display:block;/*esto es para el submenu como se ve*/
+position:absolute;
+top:0px;
+left:-40px;
+margin: auto;
+}
+
+
+section {
+    margin-right: 5px;
+    width: 50%;
+    height: 800px;
+    background: rgb(26, 25, 24);/*este es el recuadro de la seccion de la izquierda*/
+    float: left;
+    overflow: auto;
+    margin-bottom: 10px;
+    margin: auto;
+
+}
+
+section>header {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    height: 200px;
+    background: rgb(19, 18, 18);/*esto pone en negro la seccion de la  arriba a la izquierda*/
+
+
+}
+  
+  
+  body {
+
+   
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 570;
+    background-image:url("../img/fondo_tec.jpg") ;
+    
+}
+
+#formulario {
+    background-color:cornflowerblue;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 50%;
+    position: relative;
+    border-radius: 25px;
+    
+}
+
+#legend {
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+#resto{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+
+}
+
+
+
+#Enviar {
+    position:sticky ;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    left: 700px;
+    font-size: 25px;
+    
+}
+
+#reset {
+    position:sticky ;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    left: 700px;
+    font-size: 25px;
+}
